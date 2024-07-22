@@ -1,20 +1,79 @@
-# Agile Planning Final Project
-
-Welcome to my Agile Final Project! This repository contains the backend development for an e-commerce product catalog, created as part of my learning journey on Coursera's Agile and Scrum course.
+# Agile Planning Final Project: Kanban Board
 
 ## Project Overview
 
-This project focuses on building a backend system to manage an e-commerce product catalog with essential features including:
-- **Product Management**: Create, retrieve, update, and delete (CRUD) operations.
-- **User Engagement**: Like and dislike products.
-- **Advanced Search**: Query and filter products based on various criteria.
-- **Cloud Hosting**: Deploy the application in the cloud.
-- **Automated Deployments**: Set up CI/CD pipelines for seamless updates.
+This project is my final assignment for the Agile Planning course. I created a Kanban board to conveniently track the progress of user stories.
 
-## Agile Workflow
+## Kanban Board Workflow
 
-1. **Backlog Creation**: Defined user stories based on stakeholder requirements.
-2. **Sprint Planning**: Planned tasks for a 2-week sprint.
-3. **Development**: Implemented features using Agile best practices.
-4. **Review & QA**: Conducted thorough testing and quality assurance.
-5. **Deployment**: Automated deployment using CI/CD pipelines.
+1. **Creating the Board**:
+    - The Kanban board is divided into several columns representing different stages of the workflow.
+    - Columns used:
+      - **New Issues**: Newly created tasks that haven't started yet.
+      - **Icebox**: Tasks ready to be picked up.
+      - **Product Backlog**: Actively worked on tasks.
+      - **Sprint Backlog**: Tasks planned for the current sprint.
+      - **In Progress**: Tasks currently being worked on.
+      - **Review/QA**: Tasks under review.
+      - **Done**: Completed tasks.
+
+2. **Adding Tasks**:
+    - Each task is added to the **New Issues** column.
+    - Tasks can be moved to the **Icebox** for preparation.
+
+3. **Working on Tasks**:
+    - When a task is ready to be worked on, it is moved to the **Product Backlog**.
+    - Tasks planned for the current sprint are moved to the **Sprint Backlog**.
+    - During work, tasks are moved to **In Progress**.
+
+4. **Review and Completion**:
+    - Completed tasks are moved to **Review/QA** for quality checks.
+    - After successful review, tasks are moved to **Done**.
+
+## How to Use
+
+To work with the Kanban board:
+
+1. **Create a New Task**: Add a new task to the **New Issues** column.
+2. **Prepare for Work**: Move the task to the **Icebox** for preparation.
+3. **Active Work**: Move the task to the **Product Backlog** when ready to start.
+4. **Plan Sprint**: Move tasks to the **Sprint Backlog** for the current sprint.
+5. **In Progress**: Move tasks to **In Progress** while working on them.
+6. **Quality Review**: Move completed tasks to **Review/QA**.
+7. **Completion**: Move tasks to **Done** after review.
+
+## Conclusion
+
+This project helped me understand the principles of working with Kanban boards and improved my skills in planning and managing tasks using Agile methodologies. Utilizing a Kanban board allows for effective organization of the workflow and transparency in task execution.
+
+
+---
+
+### Key Features
+
+- **Visual Task Management**: Intuitive interface for tracking the status of tasks.
+- **Workflow Customization**: Adapt the board to fit any team or project needs.
+- **Real-Time Updates**: Immediate reflection of changes on the board.
+- **Collaboration Tools**: Support for teamwork, including task assignment and discussions.
+
+### Project Structure
+
+- **Columns**:
+  - **New Issues**: Tasks that haven't been started.
+  - **Icebox**: Tasks ready for work.
+  - **Product Backlog**: Actively worked on tasks.
+  - **Sprint Backlog**: Tasks planned for the sprint.
+  - **In Progress**: Tasks in progress.
+  - **Review/QA**: Tasks under review.
+  - **Done**: Completed tasks.
+
+---
+
+### Future Enhancements
+
+- **User Authentication**: Implement user login and registration.
+- **Advanced Analytics**: Add features to track metrics like cycle time and lead time.
+- **Mobile Support**: Ensure the board is fully responsive and accessible on mobile devices.
+
+Thank you for checking out my project!
+
